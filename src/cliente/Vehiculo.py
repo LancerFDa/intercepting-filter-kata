@@ -1,10 +1,6 @@
-from Target import Target
+from cliente import Target
 
-class Vehiculo(Target):
-    
-    def __init__(self, usuario):
-        self.usuario = usuario
+class Vehiculo(Target):   
 
-    def Vehiculo(self):
-        Target.ejecucion(self.usuario)
-        print("Puerta abierta " + self.usuario + "!")
+    def ejecucion(self, usuario):
+        print("Puerta abierta " + {usuario} + "!")
