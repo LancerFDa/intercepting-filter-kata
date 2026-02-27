@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "Target",
-        "Cliente"
+        "Cliente",
+        "Autentificar"
     ]
 }

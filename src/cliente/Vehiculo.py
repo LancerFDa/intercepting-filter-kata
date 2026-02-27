@@ -3,4 +3,4 @@ from cliente import Target
 class Vehiculo(Target):   
 
     def ejecucion(self, usuario):
-        print("Puerta abierta " + {usuario} + "!")
+        print("Puerta abierta " + usuario + "!")
