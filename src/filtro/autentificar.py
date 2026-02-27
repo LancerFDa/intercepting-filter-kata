@@ -1,4 +1,4 @@
-from Filtro import Filtro
+from filtro.filtro import Filtro
 
 class Autentificacion(Filtro):
 
