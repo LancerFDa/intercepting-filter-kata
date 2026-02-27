@@ -2,5 +2,8 @@ from cliente import Target
 
 class Vehiculo(Target):   
 
-    def ejecucion(self, usuario):
-        print("Puerta abierta " + usuario + "!")
+    def __init__(self, usuario):
+        self.usuario = usuario
+
+    def ejecucion(self):
+        print("Puerta abierta " + self.usuario + "!")
