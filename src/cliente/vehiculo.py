@@ -1,4 +1,4 @@
-from target import Target
+from src.cliente.target import Target
 
 class Vehiculo(Target):   
 
